@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family:"Playfair Display", serif;
+    font-style: italic;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.top-left{
+    width: 50%;
+    height: 155px;
+    
+}
+.Dumbelimg{
+  width: 89px;
+  height: 80px;
+  margin-top: 30px;
+  margin-bottom: 1px;
+
+}
+.top-right{
+    width: 50%;
+    
+}
+.section1{
+    max-height: 100vh;
+    
+}
+.section1 p{
+    color:#9ca5e2;
+}
+.section2{
+    padding-left:33px;
+    padding-right: 33px;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.gym{
+    height: inherit;
+    padding: 6px;
+    margin: auto;
+    border-radius: 15px;
+    width: 666px;
+}
+h1{
+    font-size: 1.6rem;
+    font-style: italic;
+    color: #464f8b;
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box{
+    border-radius: 8px;
+    padding: 8px 0;
+    margin: 15px 25px;
+    min-width: 20vw;
+    border: 1px solid #7E8EF1;
+    
+}
+.box h2{
+    font-size: 2rem;
+    padding: 10px;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.section3 table{
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding:15px 0;
+
+   
+}
+.section3 table td{
+    border-bottom: 2px solid black;
+
+}
+footer{
+    padding: 23px;
+    text-align: center;
+}
